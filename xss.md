@@ -79,3 +79,11 @@ var content=ts+token+"&name=Charlie&description=Samy_is_my_hero&accesslevel%5Bde
 Ajax.send(content);
 </script>
 ```
+
+JSON parse for guid
+```javascript 
+<script>
+var owner = JSON.parse(elgg.page_owner);
+alert(owner.guid);
+</script>
+```
