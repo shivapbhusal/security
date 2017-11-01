@@ -4,4 +4,4 @@
 
 * [SQL Injection](https://github.com/shivapbhusal/security/blob/master/sql_injection.md)
 
-* [Buffer Overflow] (https://github.com/shivapbhusal/security/blob/master/buffer_overflow.md)
+* [Buffer Overflow](https://github.com/shivapbhusal/security/blob/master/buffer_overflow.md)
