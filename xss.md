@@ -87,3 +87,12 @@ var owner = JSON.parse(elgg.page_owner);
 alert(owner.guid);
 </script>
 ```
+
+Working example JSON parse:
+```javascript 
+<script>
+var jsontext = '{"firstname":"Jesper","surname":"Aaberg"}'
+var info=JSON.parse(jsontext);
+alert(info.firstname);
+ </script>
+```
