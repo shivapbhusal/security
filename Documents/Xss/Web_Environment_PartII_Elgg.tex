@@ -1,0 +1,61 @@
+
+
+The above \urlisorurlsare only accessible from inside of the virtual machine, because we
+have modified the \texttt{/etc/hosts} file to map the domain
+name of each URL to the virtual machine's local IP
+address ({\tt 127.0.0.1}).
+You may map any domain name to a particular IP address using 
+\texttt{/etc/hosts}. For example you can map
+\url{http://www.example.com} to the local IP address by appending the
+following entry to \texttt{/etc/hosts}:
+\begin{verbatim}
+   127.0.0.1     www.example.com 
+\end{verbatim}
+If your web server and browser are running on two different machines, you
+need to modify \texttt{/etc/hosts} on the browser's machine accordingly
+to map these domain names to the web server's IP address, not
+to {\tt 127.0.0.1}.
+
+
+\paragraph{Configuring Apache Server.}
+In the pre-built VM image, we use Apache server to host all the web
+sites used in the lab. The name-based virtual hosting feature in
+Apache could be used to host several web sites (or URLs) on the same
+machine. A configuration file named {\tt default} in the directory
+\url{"/etc/apache2/sites-available"} contains the necessary directives for the
+configuration:
+
+\begin{enumerate}
+\item The directive {\tt "NameVirtualHost *"} instructs the web
+  server to use all IP addresses in the machine (some machines
+  may have multiple IP addresses).
+
+\item Each web site has a {\tt VirtualHost} block that specifies the
+  URL for the web site and directory in the file system that contains
+  the sources for the web site. For example, to configure a web site
+  with URL \url{http://www.example1.com} with sources in directory
+  \url{/var/www/Example_1/}, and to configure a web site
+  with URL \url{http://www.example2.com} with sources in directory
+  \url{/var/www/Example_2/},
+  we use the following blocks:
+
+\begin{Verbatim}[frame=single]
+<VirtualHost *>
+    ServerName http://www.example1.com
+    DocumentRoot /var/www/Example_1/
+</VirtualHost>
+
+<VirtualHost *>
+    ServerName http://www.example2.com
+    DocumentRoot /var/www/Example_2/
+</VirtualHost>
+\end{Verbatim}
+
+\end{enumerate}
+
+You may modify the web application by accessing the source in the
+mentioned directories. For example, with the above configuration,
+the web application \url{http://www.example1.com} can be changed by modifying
+the sources in the directory \url{/var/www/Example_1/}.
+
+

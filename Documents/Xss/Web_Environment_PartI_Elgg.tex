@@ -1,0 +1,63 @@
+%\section{Lab Environment}
+
+
+You need to use our provided virtual machine image for this lab.
+The name of the VM image that supports this lab is called
+{\tt SEEDUbuntu12.04.zip}, which is built in June 2014.
+If you happen to have an older version of our pre-built VM image,
+you need to download the most recent version, as the older version
+does not support this lab. Go to our SEED web page
+(\url{http://www.cis.syr.edu/~wedu/seed/})
+to get the VM image.
+
+
+\subsection{Environment Configuration}
+
+In this lab, we need three things, which are already 
+installed in the provided VM image: (1) the Firefox web browser,
+(2) the Apache web server, and (3) the {\tt Elgg} 
+web application. For the browser,
+we need to use the \texttt{LiveHTTPHeaders} extension for Firefox to
+inspect the HTTP requests and responses. The pre-built \ubuntu
+VM image provided to you has already installed the Firefox web browser with the
+required extensions. 
+
+
+\paragraph{Starting the Apache Server.}
+The Apache web server is also included in the pre-built \ubuntu
+image. However, the web server is not started by default.
+You need to first start the web server using the
+following command:
+\begin{verbatim}
+   % sudo service apache2 start
+\end{verbatim}
+
+\paragraph{The {\tt Elgg} Web Application.}
+We use an open-source web application called {\tt Elgg} in this lab.
+{\tt Elgg} is a web-based social-networking application. 
+It is already set up in the 
+pre-built \ubuntu VM image. 
+%If you want to try it yourself, here is a detailed online
+%tutorial on how to install {\tt Collabtive} and configure its
+%database~\cite{collabtive}. 
+We have also created several user accounts on the {\tt Elgg} server and the credentials are given below.
+
+
+\vspace{0.1in}
+\begin{tabular}{|l|l|l|}
+\hline
+User 	& UserName 	& Password\\
+\hline
+Admin 	& admin 	& seedelgg \\
+Alice 	& alice 	& seedalice \\
+Boby 	& boby 		& seedboby \\
+Charlie & charlie 	& seedcharlie \\
+Samy 	& samy 		& seedsamy \\
+\hline
+\end{tabular}
+\vspace{0.1in}
+
+
+\paragraph{Configuring DNS.}
+We have configured the following \urlorurls needed for this lab. To access 
+the \urlorurls, the Apache server needs to be started first:
