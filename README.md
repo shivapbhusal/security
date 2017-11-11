@@ -13,3 +13,7 @@
 ## Slides 
 
 * [Buffer-Overflow](https://courses.cs.washington.edu/courses/cse451/05sp/section/overflow1.ppt)
+
+## References 
+* [CS 161 : Computer Security, UC, Berkeley](https://inst.eecs.berkeley.edu/~cs161/fa17/)
+* 
