@@ -1,6 +1,7 @@
-# Independent study on web security issues( Based on Seedlab, Syracuse University) 
+# Cross Site Scripting(XSS)
 
-## Cross site Scripting 
+### Summary 
+*  
 
 ### Useful Links:
 * Web and network security, CS 155, Stanford University, https://crypto.stanford.edu/cs155/
