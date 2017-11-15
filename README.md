@@ -12,4 +12,10 @@
 
 ## Slides 
 
-* [Buffer-Overflow](https://courses.cs.washington.edu/courses/cse451/05sp/section/overflow1.ppt)
+* [Slide 1 - How web works ? Web security.](https://inst.eecs.berkeley.edu/~cs161/fa17/lectures/lec10_websec1.pdf)
+
+## References 
+* [CS 161 : Computer Security, UC, Berkeley](https://inst.eecs.berkeley.edu/~cs161/fa17/)
+* [Online Editor for JavaScript](http://js.do/)
+
+

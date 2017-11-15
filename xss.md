@@ -99,3 +99,11 @@ var info=JSON.parse(jsontext);
 alert(info.firstname);
  </script>
 ```
+
+Test for self propagating worm :
+```javascript 
+<script id="worm">
+var strcode=document.getElementById("worm");
+alert(strcode.innerHTML);
+</script>
+```
