@@ -8,7 +8,7 @@
 ## Links 
 
 
-## Tasks:
+## SeedLab Tasks:
 
 #### A simple PHP application. 
 * Link : https://gitlab.com/shivapbhusal/app_analysis/blob/master/security_examples/sql_injection.php

@@ -1,16 +1,30 @@
-# Independent study on web security issues( Based on Seedlab, Syracuse University) 
-## Buffer Overflow 
-### Tasks:
+# Buffer Overflow 
+## Summary 
+* The vulnerable program always takes user inputs in the form of text or file. 
+* The user input is stored in a buffer of underestimated size.
+* The attacker gives inputs greater than the size of buffer.  
+* The input overrides the value of the return address in the stack. 
+* Attacker constructs the input in such a way that another program is injected in the input and the overridden value of the return address now points to the address of injected malicious program. 
+* The malicious program is executed. 
 
-#### Sample demo application
+## Sample demo application
 * Link : https://gitlab.com/shivapbhusal/app_analysis/blob/master/security_examples/bufferoverflow.c
 
-#### Useful Links:
+## Useful Links:
 * https://courses.cs.washington.edu/courses/cse451/05sp/section/overflow1.ppt
 * Smashing the stack for fun and profit, http://www-inst.eecs.berkeley.edu/~cs161/fa08/papers/stack_smashing.pdf
 * Lecture Notes: http://www.cis.syr.edu/~wedu/Teaching/CompSec/LectureNotes_New/Buffer_Overflow.pdf
 * https://dhavalkapil.com/blogs/Shellcode-Injection/
 * GDB tutorial: http://www.unknownroad.com/rtfm/gdbtut/gdbtoc.html
 
-#### Seedlab tasks 
+## Seedlab tasks 
 * Link : http://www.cis.syr.edu/~wedu/seed/Labs_12.04/Software/Buffer_Overflow/Buffer_Overflow.pdf
+
+## FAQ(s)
+
+[1] How does address space randomization help to prevent buffer overflow ? 
+Ans: "ASLR works alongside virtual memory management to randomize the locations of different parts of the program in memory. Every time the program is run, components (including the stack, heap, and libraries) are moved to a different address in virtual memory. Attackers can no longer learn where their target is through trial and error, because the address will be different every time."
+
+Source: https://www.howtogeek.com/278056/what-is-aslr-and-how-does-it-keep-your-computer-secure/
+
+
