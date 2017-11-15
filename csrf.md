@@ -2,7 +2,7 @@
 
 ## Summary
 
-#### Pre-Condition 
+#### Condition 
 * Victim is logged in to the vulnerable website. 
 * Attacker does social engineering, and victim has opened the attacker's website in the same browser. 
 
