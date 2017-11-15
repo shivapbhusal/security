@@ -23,6 +23,7 @@
 ## FAQ(s)
 
 [1] How does address space randomization help to prevent buffer overflow ? 
+
 Ans: "ASLR works alongside virtual memory management to randomize the locations of different parts of the program in memory. Every time the program is run, components (including the stack, heap, and libraries) are moved to a different address in virtual memory. Attackers can no longer learn where their target is through trial and error, because the address will be different every time."
 
 Source: https://www.howtogeek.com/278056/what-is-aslr-and-how-does-it-keep-your-computer-secure/
