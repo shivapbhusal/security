@@ -34,4 +34,6 @@ Source: https://www.howtogeek.com/278056/what-is-aslr-and-how-does-it-keep-your-
 
 StackExchange: https://security.stackexchange.com/questions/18556/how-do-aslr-and-dep-work
 
+Udacity Video : https://www.youtube.com/watch?v=IX2Qf8K2n9E
+
 
