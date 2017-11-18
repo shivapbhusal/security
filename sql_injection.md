@@ -1,7 +1,14 @@
+# SQL Injection 
 
-# Independent study on web security issues( Based on Seedlab, Syracuse University) 
-## SQL injection 
-### Tasks:
+## Summary 
+* SQL injection attacks are due to invalidated user inputs. 
+* The attackers inject inputs in the text box such that the SQL statement on the client side is reconstructed as per the attacker's needs. 
+* The victims may not even know that their data is compromised. 
+
+## Links 
+
+
+## SeedLab Tasks:
 
 #### A simple PHP application. 
 * Link : https://gitlab.com/shivapbhusal/app_analysis/blob/master/security_examples/sql_injection.php

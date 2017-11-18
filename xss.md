@@ -1,13 +1,23 @@
-# Independent study on web security issues( Based on Seedlab, Syracuse University) 
+# Cross Site Scripting(XSS)
 
-## Cross site Scripting 
+## Summary 
+## Condition:
+* The victim is logged in to the vulnerable website. 
 
-### Useful Links:
+## What happens: 
+* The attacker injects a malicious JavaScript code in the vulnerable website. 
+* The victim surfs through the pages of the vulnerable website. 
+* Attacker's JavaScript code runs on the victim's browser. 
+* Attackers performs malicious activities with the JavaScript. 
+
+Note: CSRF attacks do not violate same origin policy. (?)
+
+## Useful Links:
 * Web and network security, CS 155, Stanford University, https://crypto.stanford.edu/cs155/
 * https://excess-xss.com/
 * Seedlab, Syracuse University,http://www.cis.syr.edu/~wedu/seed/ 
 
-### Tasks:
+## Tasks:
 
 #### A simple blogpost application in php 
 * Link : https://gitlab.com/shivapbhusal/app_analysis/tree/shiva/security_examples/xss
