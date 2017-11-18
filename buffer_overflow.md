@@ -32,4 +32,6 @@ Ans: "ASLR works alongside virtual memory management to randomize the locations 
 
 Source: https://www.howtogeek.com/278056/what-is-aslr-and-how-does-it-keep-your-computer-secure/
 
+StackExchange: https://security.stackexchange.com/questions/18556/how-do-aslr-and-dep-work
+
 
