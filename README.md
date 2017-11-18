@@ -17,5 +17,7 @@
 ## References 
 * [CS 161 : Computer Security, UC, Berkeley](https://inst.eecs.berkeley.edu/~cs161/fa17/)
 * [Online Editor for JavaScript](http://js.do/)
+* [Google Application Security](https://www.google.ie/about/appsecurity/)
+* [Stanford, Web programming and security, Slides not available](https://crypto.stanford.edu/cs142/)
 
 
