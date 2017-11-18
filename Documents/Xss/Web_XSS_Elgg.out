@@ -1,0 +1,13 @@
+\BOOKMARK [1][-]{section.1}{Overview}{}% 1
+\BOOKMARK [1][-]{section.2}{Lab Environment}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Environment Configuration}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Note for Instructors}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{Lab Tasks}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{Task 1: Posting a Malicious Message to Display an Alert Window}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{Task 2: Posting a Malicious Message to Display Cookies}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.3}{Task 3: Stealing Cookies from the Victim's Machine}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.4}{Task 4: Session Hijacking using the Stolen Cookies}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.5}{Task 5: Writing an XSS Worm}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.6}{Task 6: Writing a Self-Propagating XSS Worm}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.7}{Task 7: Countermeasures}{section.3}% 12
+\BOOKMARK [1][-]{section.4}{Submission}{}% 13
