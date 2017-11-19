@@ -116,3 +116,11 @@ var strcode=document.getElementById("worm");
 alert(strcode.innerHTML);
 </script>
 ```
+
+## Preventive measures:
+### Summary:
+* **Encoding**: Interpreting the user input as just the data and not the code. Treating malicious JavaScript as just a plain text. 
+
+* **Validation**: Filters the user input and excludes the malicious JavaScript code. 
+
+### In Elgg (SeedLab): 
