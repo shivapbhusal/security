@@ -124,3 +124,5 @@ alert(strcode.innerHTML);
 * **Validation**: Filters the user input and excludes the malicious JavaScript code. 
 
 ### In Elgg (SeedLab): 
+* Login as admin. Go to administration>>plugin>>HTMLawed 1.8. Click on Activate. 
+* Go to /var/www/XSS/elgg/views/default/output folder & uncomment htmlspecialchars() call in the files listed in the instruction document. 

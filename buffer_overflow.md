@@ -36,4 +36,8 @@ StackExchange: https://security.stackexchange.com/questions/18556/how-do-aslr-an
 
 Udacity Video : https://www.youtube.com/watch?v=IX2Qf8K2n9E
 
+## Preventive measures: 
+* Address Space Randomization: sysctl -w kernel.randomize_va_space=0 
+* Enabling stackguard protection scheme: It makes sure that whatever is in the stack, doesn't execute. gcc-fno-stack-protector $file_name
+
 
