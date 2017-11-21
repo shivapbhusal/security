@@ -24,5 +24,6 @@
 * [Online Editor for JavaScript](http://js.do/)
 * [Google Application Security](https://www.google.ie/about/appsecurity/)
 * [Stanford, Web programming and security, Slides not available](https://crypto.stanford.edu/cs142/)
+* [Computer and Network security, CMSC414, University of Maryland] (http://www.cs.umd.edu/class/spring2017/cmsc414/syllabus.html)
 
 
