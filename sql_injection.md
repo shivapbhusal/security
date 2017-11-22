@@ -59,3 +59,6 @@ aaaaaa',salary=1 where Name='Ryan'#
 ```
 
 & set the values of every other fields as # so that every statements executed are commented out. 
+
+## Preventive Measures: 
+* Use prepared statements as explained in the SeedLab document. 

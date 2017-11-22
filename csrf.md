@@ -83,3 +83,7 @@ window.onload = function() { csrf_hack();}
 
 ```
 
+## Preventive Measures: 
+* Maintaining secrect token in the vulnerable page. 
+
+* In Elgg (SeedLab), go to elgg/engine/lib/actions.php, and in Function action_gatekeeper, just comment out the "return true" statement. 
