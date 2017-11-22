@@ -36,6 +36,10 @@ StackExchange: https://security.stackexchange.com/questions/18556/how-do-aslr-an
 
 Udacity Video : https://www.youtube.com/watch?v=IX2Qf8K2n9E
 
+ASLR adds random paddings between  between return address and local buffers: http://cactus.eas.asu.edu/partha/Papers-PDF/2010/ISSRE_memory.pdf
+
+MIT : https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/lecture-notes/MIT6_858F14_lec3.pdf
+
 ## Preventive measures: 
 * Address Space Randomization: sysctl -w kernel.randomize_va_space=0 
 * Enabling stackguard protection scheme: It makes sure that whatever is in the stack, doesn't execute. gcc-fno-stack-protector $file_name
