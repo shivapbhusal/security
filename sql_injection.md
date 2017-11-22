@@ -2,7 +2,7 @@
 
 ## Summary 
 * SQL injection attacks are due to invalidated user inputs. 
-* The attackers inject inputs in the text box such that the SQL statement on the client side is reconstructed as per the attacker's needs. 
+* The attackers inject inputs in the text box such that the SQL statement on the server side is reconstructed as per the attacker's needs. 
 * The victims may not even know that their data is compromised. 
 
 ## Links 
