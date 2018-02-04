@@ -26,4 +26,6 @@
 * [Stanford, Web programming and security, Slides not available](https://crypto.stanford.edu/cs142/)
 * [Computer and Network security, CMSC414, University of Maryland](http://www.cs.umd.edu/class/spring2017/cmsc414/syllabus.html)
 
+## Supervisor: 
+[Dr. Sankardas Roy](http://people.cs.ksu.edu/~sroy/), Bowling Green State University
 
